@@ -20,8 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         window.backgroundColor = .white
         // Implementacion Master Detail:
-        let nv = UINavigationController(rootViewController: ViewController())
-        window.rootViewController = nv
+        window.rootViewController = UINavigationController(rootViewController: ViewController())
         self.window = window
         window.makeKeyAndVisible()
     }
